@@ -1,0 +1,35 @@
+.boxMessageReceiver {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.bubbleMessageReceiver {
+    padding: 10px;
+    margin: 10px;
+    background-color: #dcf8c6;
+    border-radius: 10px;
+    max-width: 60%;
+    
+}
+
+.boxMessageSender {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.bubbleMessageSender {
+    padding: 10px;
+    margin: 10px;
+    background-color: #ecf5e5;
+    border-radius: 10px;
+    max-width: 60%;
+}
+
+.image {
+    object-fit: cover;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+}
